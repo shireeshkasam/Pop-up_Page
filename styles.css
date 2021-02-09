@@ -24,7 +24,7 @@
   font-weight: bold;
   color: #fff;
 }
-.login, .username, .password , .button {
+.login, .button {
   padding: 6px 20px;
   border-radius: 20px;
   background: none;
@@ -33,6 +33,15 @@
   font-weight: bold;
   transition: all .5s;
   margin-top: 1em;
+}
+.username, .password {
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  border-bottom: 2px solid #eee;
+  padding-left: 0;
+  font-weight: normal;
+  background: transparent;  
 }
 .login:hover {
   background: #FAB87F;
